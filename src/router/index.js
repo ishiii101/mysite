@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Players from '@/components/Players'
+import PlayerCards from '@/components/PlayersCards'
 
 Vue.use(Router)
 
@@ -18,9 +19,9 @@ export default new Router({
       component: HelloWorld
     },
     {
-      path: '/Players',
+      path: '/PlayerCards',
       name: 'Players',
-      component: Players
+      component: PlayerCards
     },
   ]
 })

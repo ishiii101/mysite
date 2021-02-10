@@ -1,5 +1,8 @@
 <template>
   <div class="players">
+  <div>
+<h1> Players </h1>
+</div>
     <b-table dark :items="players" :fields="fields">
        <template #cell(age)="rowData">
       {{rowData.item.age}}
@@ -63,4 +66,6 @@ li {
 a {
   color: #42b983;
 }
+
+
 </style>
